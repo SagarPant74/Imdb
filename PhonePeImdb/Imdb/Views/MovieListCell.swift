@@ -104,7 +104,7 @@ class MovieListCell: UITableViewCell {
         }
         movieImageView.image = viewData.image
         titleLabel.text = viewData.title
-        subtitle.text = viewData.title
+        subtitle.text = viewData.subtitle
         setNeedsLayout()
         layoutIfNeeded()
     }
