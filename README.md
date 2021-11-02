@@ -44,3 +44,9 @@ Views are separated from their data that they display/ Views are driven by their
 <h4>RatingPopularity View</h4>
 
 <img width="214" alt="Screenshot 2021-11-03 at 12 49 45 AM" src="https://user-images.githubusercontent.com/71034915/139930782-d62d2431-3aa1-4992-92e4-ef3f0f266280.png">
+
+</h4>Title Subtitle View</h4>
+<img width="172" alt="Screenshot 2021-11-03 at 12 55 47 AM" src="https://user-images.githubusercontent.com/71034915/139935162-4c017d0d-5511-4447-882d-44183212e26b.png">
+
+This is pure Swift project ❤️ with no external pods and dependencies.
+
