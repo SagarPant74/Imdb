@@ -2,6 +2,7 @@
 IMDB clone
 
 This is a simple IMDB Clone with completely programmatic UI, right from the app, scene delegate. 🚀
+
 This means 
 - ❌ Storyboards
 - ❌ XIBs
