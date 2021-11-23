@@ -85,7 +85,6 @@ class MovieDetailViewController: UIViewController {
         view.backgroundColor = .white
         view.addSubview(mainStackView)
         view.setNeedsUpdateConstraints()
-        view.layoutIfNeeded()
         render()
     }
     

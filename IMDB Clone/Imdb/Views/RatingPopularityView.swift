@@ -27,7 +27,6 @@ class RatingPopularityView: UIView {
         ratingPopularityStackView
        ])
         mainStackView.translatesAutoresizingMaskIntoConstraints = false
-//        mainStackView.isLayoutMarginsRelativeArrangement = false
         mainStackView.spacing = 24
         mainStackView.axis = .horizontal
         return mainStackView
@@ -94,7 +93,6 @@ class RatingPopularityView: UIView {
     private func commonInit() {
         addSubview(mainStackView)
         setNeedsUpdateConstraints()
-        layoutIfNeeded()
     }
     
     override func updateConstraints() {
@@ -211,7 +209,6 @@ class TitleSubtitleView: UIView {
     func commonInit() {
         addSubview(mainStackView)
         setNeedsUpdateConstraints()
-        layoutIfNeeded()
     }
     
     override func updateConstraints() {
@@ -245,7 +242,5 @@ class TitleSubtitleView: UIView {
         }
         titleLabel.attributedText = viewData.title
         subtitleLabel.attributedText = viewData.subtitle
-        setNeedsUpdateConstraints()
-        layoutIfNeeded()
     }
 }

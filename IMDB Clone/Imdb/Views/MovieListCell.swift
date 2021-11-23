@@ -78,6 +78,7 @@ class MovieListCell: UITableViewCell {
         titleLabel.translatesAutoresizingMaskIntoConstraints = false
         titleLabel.numberOfLines = 1
         titleLabel.font = UIFont.preferredFont(forTextStyle: .headline)
+        titleLabel.setContentHuggingPriority(.required, for: .vertical)
         return titleLabel
     }()
     
@@ -109,7 +110,6 @@ class MovieListCell: UITableViewCell {
             movieTopSpacer.heightAnchor.constraint(equalTo: movieBottomSpacer.heightAnchor)
         ])
         setNeedsUpdateConstraints()
-        layoutIfNeeded()
     }
     
     struct MovieListCellViewData {
@@ -131,7 +131,5 @@ class MovieListCell: UITableViewCell {
         movieImageView.image = viewData.image
         titleLabel.text = viewData.title
         subtitle.text = viewData.subtitle
-        setNeedsLayout()
-        layoutIfNeeded()
     }
 }

@@ -32,10 +32,9 @@ class MovieListViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.navigationItem.title = "IMDB app"
+        navigationItem.title = "IMDB App"
         view.addSubview(movieTableView)
         view.setNeedsUpdateConstraints()
-        view.layoutIfNeeded()
     }
     
     override func updateViewConstraints() {
